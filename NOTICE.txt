@@ -1,0 +1,7 @@
+Использованные в проекте ассеты:
+
+Animated Cosmos Shader
+https://assetstore.unity.com/packages/vfx/shaders/animated-cosmos-shader-155006
+
+Grid Prototype Materials
+https://assetstore.unity.com/packages/2d/textures-materials/grid-prototype-materials-214264
