@@ -1,0 +1,339 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1748341399229366, "dur":51, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748341399229479, "dur":36503, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748341399265993, "dur":652, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748341399266693, "dur":126, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1748341399266819, "dur":1041, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748341399272640, "dur":70, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748341399275880, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/app.info" }}
+,{ "pid":12345, "tid":0, "ts":1748341399267890, "dur":9100, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748341399276995, "dur":35368, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748341399312365, "dur":701, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748341399313484, "dur":6477, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1748341399267698, "dur":9306, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748341399283793, "dur":1143, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1748341399284936, "dur":12318, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1748341399297255, "dur":227, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1748341399297482, "dur":2752, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":1, "ts":1748341399300234, "dur":216, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":1, "ts":1748341399300451, "dur":407, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1748341399300858, "dur":423, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":1, "ts":1748341399277007, "dur":24384, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748341399301408, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/7603295310199551310.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1748341399301564, "dur":1778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/GlitchSpace/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1748341399303343, "dur":1690, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748341399306611, "dur":883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1748341399308171, "dur":820, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748341399308157, "dur":835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":1, "ts":1748341399309748, "dur":2562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GlitchSpace - Windows x64/GlitchSpace_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748341399267815, "dur":9222, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748341399280779, "dur":654, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748341399277040, "dur":4393, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748341399281434, "dur":310, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748341399281744, "dur":19701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748341399301448, "dur":282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1748341399301798, "dur":100, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets12.resource" }}
+,{ "pid":12345, "tid":2, "ts":1748341399302048, "dur":4580, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748341399306642, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748341399306782, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748341399306980, "dur":467, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748341399307448, "dur":4917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748341399267750, "dur":9263, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748341399280177, "dur":573, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Common.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748341399277022, "dur":4159, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748341399281182, "dur":2428, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748341399283610, "dur":17845, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748341399301456, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace.exe" }}
+,{ "pid":12345, "tid":3, "ts":1748341399301684, "dur":81, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1748341399301803, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":3, "ts":1748341399301894, "dur":105, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1748341399302023, "dur":272, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":3, "ts":1748341399302296, "dur":4336, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748341399306637, "dur":209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748341399306946, "dur":337, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748341399307402, "dur":277, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748341399307680, "dur":4687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748341399267801, "dur":9227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748341399277031, "dur":3877, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748341399280908, "dur":763, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748341399281671, "dur":19747, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748341399301419, "dur":329, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1748341399301817, "dur":147, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":4, "ts":1748341399302027, "dur":280, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1748341399302307, "dur":4330, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748341399306640, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748341399306907, "dur":363, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748341399307404, "dur":287, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748341399307693, "dur":4683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748341399267856, "dur":9191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748341399280504, "dur":522, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Security.Cryptography.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748341399277050, "dur":4404, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748341399281454, "dur":19947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748341399301408, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748341399301908, "dur":409, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/level8" }}
+,{ "pid":12345, "tid":5, "ts":1748341399302318, "dur":4294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748341399306687, "dur":196, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748341399306884, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748341399306973, "dur":565, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748341399307539, "dur":4865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748341399267892, "dur":9190, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748341399278688, "dur":651, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Runtime.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748341399277085, "dur":3998, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748341399281083, "dur":2417, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748341399283500, "dur":17920, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748341399301421, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1748341399301712, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748341399301769, "dur":492, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1748341399302263, "dur":4359, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748341399306623, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748341399306767, "dur":63, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748341399306896, "dur":114, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748341399307087, "dur":137, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748341399307435, "dur":4943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748341399268020, "dur":9106, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748341399277129, "dur":4077, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748341399281207, "dur":641, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748341399281207, "dur":1963, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748341399283170, "dur":18243, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748341399301414, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1748341399301698, "dur":408, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":7, "ts":1748341399302107, "dur":4574, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748341399306682, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748341399307169, "dur":312, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748341399307483, "dur":4903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748341399267936, "dur":9155, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748341399277094, "dur":3710, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748341399280805, "dur":1662, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748341399282468, "dur":18947, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748341399301418, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1748341399301769, "dur":351, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1748341399302121, "dur":4537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748341399306659, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748341399307169, "dur":326, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748341399307496, "dur":4887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748341399268066, "dur":9069, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748341399278164, "dur":651, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.IO.Pipes.AccessControl.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748341399277137, "dur":3640, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748341399280778, "dur":2525, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748341399283303, "dur":18138, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748341399301447, "dur":301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1748341399301888, "dur":348, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1748341399302237, "dur":4450, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748341399306688, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748341399307010, "dur":379, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748341399307439, "dur":4933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748341399268106, "dur":9064, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748341399280610, "dur":610, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Data.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748341399277174, "dur":4399, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748341399281573, "dur":19836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748341399301411, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1748341399301712, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748341399301763, "dur":457, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":10, "ts":1748341399302220, "dur":4421, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748341399306646, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748341399306925, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748341399307282, "dur":331, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748341399307615, "dur":4774, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748341399268167, "dur":9038, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748341399277881, "dur":558, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748341399277209, "dur":4753, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748341399281962, "dur":19470, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748341399301433, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1748341399301782, "dur":361, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1748341399302144, "dur":4495, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748341399306838, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748341399306962, "dur":292, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748341399307348, "dur":278, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748341399307627, "dur":4765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748341399268210, "dur":9005, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748341399279423, "dur":503, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\il2cpp\\build\\deploy\\Mono.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748341399277217, "dur":4755, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748341399281973, "dur":19456, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748341399301430, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1748341399301724, "dur":485, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1748341399302210, "dur":4424, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748341399306636, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748341399306869, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748341399306962, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748341399307035, "dur":551, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748341399307587, "dur":4801, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1748341399268263, "dur":8961, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1748341399277227, "dur":4215, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1748341399281490, "dur":19917, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1748341399301408, "dur":352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":13, "ts":1748341399301839, "dur":357, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1748341399302197, "dur":4451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1748341399306653, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":13, "ts":1748341399307163, "dur":270, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":13, "ts":1748341399307434, "dur":4940, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748341399268350, "dur":8897, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748341399278965, "dur":543, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\Tools\\BuildPipeline\\Unity.Linker.Api.dll" }}
+,{ "pid":12345, "tid":14, "ts":1748341399277250, "dur":3471, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748341399280722, "dur":2616, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748341399283339, "dur":18066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748341399301409, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1748341399301676, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748341399301781, "dur":312, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets13.assets.resS" }}
+,{ "pid":12345, "tid":14, "ts":1748341399302094, "dur":4542, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748341399306640, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.AI.Navigation.dll" }}
+,{ "pid":12345, "tid":14, "ts":1748341399306739, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":14, "ts":1748341399307104, "dur":52, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1748341399307278, "dur":297, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":14, "ts":1748341399307576, "dur":4819, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748341399268292, "dur":8943, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748341399277239, "dur":4309, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748341399281548, "dur":19873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748341399301422, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1748341399301682, "dur":342, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":15, "ts":1748341399302025, "dur":4645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748341399306677, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":15, "ts":1748341399306981, "dur":435, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":15, "ts":1748341399307469, "dur":4899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748341399268386, "dur":8871, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748341399277261, "dur":4541, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748341399281803, "dur":19659, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748341399301463, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1748341399301818, "dur":430, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1748341399302249, "dur":4396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748341399306647, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1748341399306970, "dur":193, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":16, "ts":1748341399307228, "dur":323, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":16, "ts":1748341399307552, "dur":4842, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748341399268444, "dur":8825, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748341399278706, "dur":560, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\monodoc.dll" }}
+,{ "pid":12345, "tid":17, "ts":1748341399277272, "dur":4477, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748341399281749, "dur":19647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748341399301409, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":17, "ts":1748341399301537, "dur":1393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":17, "ts":1748341399302981, "dur":3644, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748341399306665, "dur":298, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748341399307139, "dur":181, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1748341399307400, "dur":266, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":17, "ts":1748341399307667, "dur":4718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748341399268493, "dur":8787, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748341399277282, "dur":3786, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748341399281068, "dur":2530, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748341399283599, "dur":17817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748341399301418, "dur":249, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":18, "ts":1748341399301746, "dur":264, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":18, "ts":1748341399302011, "dur":4612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748341399306630, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1748341399306720, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748341399306891, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748341399306961, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":18, "ts":1748341399307281, "dur":318, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1748341399307600, "dur":4796, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748341399268531, "dur":8759, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748341399277294, "dur":4595, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748341399281889, "dur":19536, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748341399301426, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":19, "ts":1748341399301809, "dur":137, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":19, "ts":1748341399302012, "dur":4602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748341399306614, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1748341399306728, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":19, "ts":1748341399306918, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1748341399307018, "dur":339, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1748341399307422, "dur":4976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1748341399268603, "dur":8698, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1748341399277305, "dur":4182, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1748341399281487, "dur":19912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1748341399301679, "dur":106, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":20, "ts":1748341399301890, "dur":295, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":20, "ts":1748341399302186, "dur":4469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1748341399306666, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1748341399306933, "dur":202, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1748341399307362, "dur":277, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1748341399307640, "dur":4737, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748341399268680, "dur":8647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748341399277330, "dur":4393, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748341399281724, "dur":19687, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748341399301413, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":21, "ts":1748341399301643, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748341399301694, "dur":157, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":21, "ts":1748341399301898, "dur":234, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":21, "ts":1748341399302133, "dur":4487, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748341399306664, "dur":177, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748341399307016, "dur":359, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1748341399307426, "dur":4933, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1748341399268640, "dur":8674, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1748341399280588, "dur":584, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\System.Data.Entity.dll" }}
+,{ "pid":12345, "tid":22, "ts":1748341399277318, "dur":4606, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1748341399281925, "dur":19505, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1748341399301432, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":22, "ts":1748341399301955, "dur":318, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/level3" }}
+,{ "pid":12345, "tid":22, "ts":1748341399302273, "dur":4377, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1748341399306651, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":22, "ts":1748341399306885, "dur":142, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":22, "ts":1748341399307125, "dur":528, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":22, "ts":1748341399307654, "dur":4716, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1748341399268719, "dur":8622, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1748341399277348, "dur":4533, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1748341399281881, "dur":19571, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1748341399301454, "dur":331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":23, "ts":1748341399301818, "dur":349, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":23, "ts":1748341399302168, "dur":4508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1748341399306677, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":23, "ts":1748341399306847, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1748341399306942, "dur":397, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1748341399307401, "dur":300, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1748341399307702, "dur":4678, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748341399268758, "dur":8598, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748341399278191, "dur":506, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\I18N.CJK.dll" }}
+,{ "pid":12345, "tid":24, "ts":1748341399279680, "dur":641, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Xml.XPath.XDocument.dll" }}
+,{ "pid":12345, "tid":24, "ts":1748341399277360, "dur":4587, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748341399281948, "dur":19502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748341399301454, "dur":317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":24, "ts":1748341399301944, "dur":132, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/level5" }}
+,{ "pid":12345, "tid":24, "ts":1748341399302077, "dur":4603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748341399306681, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":24, "ts":1748341399307003, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748341399307165, "dur":301, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1748341399307467, "dur":4895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748341399268796, "dur":8572, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748341399279241, "dur":699, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.ServiceModel.Primitives.dll" }}
+,{ "pid":12345, "tid":25, "ts":1748341399280388, "dur":555, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.ServiceModel.Http.dll" }}
+,{ "pid":12345, "tid":25, "ts":1748341399277372, "dur":4993, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748341399282366, "dur":19057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748341399301424, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":25, "ts":1748341399301820, "dur":336, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":25, "ts":1748341399302157, "dur":4458, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748341399306661, "dur":275, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748341399306953, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1748341399307094, "dur":81, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1748341399307460, "dur":4900, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748341399268844, "dur":8535, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748341399277383, "dur":4015, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748341399281398, "dur":320, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748341399281718, "dur":19709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748341399301429, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":26, "ts":1748341399301770, "dur":209, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":26, "ts":1748341399302017, "dur":4613, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748341399306631, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1748341399306974, "dur":538, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1748341399307513, "dur":4868, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748341399268902, "dur":8489, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748341399278717, "dur":580, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Runtime.InteropServices.RuntimeInformation.dll" }}
+,{ "pid":12345, "tid":27, "ts":1748341399277395, "dur":5072, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748341399282467, "dur":18973, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748341399301443, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":27, "ts":1748341399301731, "dur":188, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":27, "ts":1748341399302006, "dur":278, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/level1" }}
+,{ "pid":12345, "tid":27, "ts":1748341399302284, "dur":4334, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748341399306661, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748341399306763, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1748341399306894, "dur":51, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":27, "ts":1748341399306950, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1748341399307192, "dur":333, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1748341399307526, "dur":4867, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1748341399268951, "dur":8469, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1748341399279569, "dur":513, "ph":"X", "name": "File",  "args": { "detail":"C:\\Program Files\\Unity\\Hub\\Editor\\6000.0.42f1\\Editor\\Data\\MonoBleedingEdge\\lib\\mono\\unityjit-win32\\Facades\\System.Net.Requests.dll" }}
+,{ "pid":12345, "tid":28, "ts":1748341399277420, "dur":5014, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1748341399282435, "dur":19000, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1748341399301436, "dur":173, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":28, "ts":1748341399301766, "dur":297, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":28, "ts":1748341399302067, "dur":4593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1748341399306665, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1748341399306849, "dur":714, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Windows x64/GlitchSpace_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1748341399307564, "dur":4826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748341399328096, "dur":1281, "ph":"X", "name": "ProfilerWriteOutput" }
+,

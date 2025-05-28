@@ -1,0 +1,302 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1748282721109876, "dur":26358, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748282721136238, "dur":454, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748282721136808, "dur":935, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748282721139743, "dur":51, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748282721139849, "dur":50, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748282721139954, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748282721141472, "dur":125, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1748282721137769, "dur":5810, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748282721143581, "dur":26393, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748282721169975, "dur":491, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748282721170468, "dur":51, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748282721170882, "dur":3959, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1748282721137605, "dur":5982, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748282721149218, "dur":1230, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":1, "ts":1748282721150448, "dur":9405, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":1, "ts":1748282721159853, "dur":160, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport" }}
+,{ "pid":12345, "tid":1, "ts":1748282721160013, "dur":386, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/MonoBleedingEdge" }}
+,{ "pid":12345, "tid":1, "ts":1748282721160400, "dur":137, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/Variations/linux64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":1, "ts":1748282721160538, "dur":426, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.42f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":1, "ts":1748282721160965, "dur":348, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Linux642/Data" }}
+,{ "pid":12345, "tid":1, "ts":1748282721143589, "dur":17786, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748282721161392, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/7888629895256011952.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1748282721161505, "dur":351, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/7888629895256011952.rsp" }}
+,{ "pid":12345, "tid":1, "ts":1748282721161857, "dur":1440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker D:/GlitchSpace/Library/Bee/artifacts/unitylinker_1ofc.traceevents" }}
+,{ "pid":12345, "tid":1, "ts":1748282721163298, "dur":968, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1748282721165611, "dur":663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/LinuxPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":1, "ts":1748282721167153, "dur":2709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GlitchSpace - Linux/GLS_Data/Plugins/lib_burst_generated.so" }}
+,{ "pid":12345, "tid":2, "ts":1748282721137611, "dur":5982, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748282721143601, "dur":3674, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748282721147275, "dur":2143, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748282721149419, "dur":12002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748282721161425, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748282721161517, "dur":267, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1748282721161785, "dur":3849, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1748282721165635, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748282721166002, "dur":229, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1748282721166232, "dur":3710, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748282721137691, "dur":5926, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748282721143620, "dur":4164, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748282721147785, "dur":1773, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748282721149559, "dur":11829, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748282721161393, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1748282721161611, "dur":196, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/resources.assets" }}
+,{ "pid":12345, "tid":3, "ts":1748282721161808, "dur":3840, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1748282721165649, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748282721165856, "dur":64, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748282721165982, "dur":311, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1748282721166294, "dur":3668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748282721137650, "dur":5954, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748282721143607, "dur":3983, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748282721147591, "dur":1313, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748282721148904, "dur":12512, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748282721161420, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748282721161536, "dur":180, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":4, "ts":1748282721161717, "dur":3894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1748282721165613, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748282721165864, "dur":101, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748282721166009, "dur":249, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1748282721166259, "dur":3681, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748282721138474, "dur":5343, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748282721143820, "dur":4275, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748282721148095, "dur":13285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748282721161710, "dur":3953, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1748282721165951, "dur":95, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748282721166116, "dur":216, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1748282721166333, "dur":3635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748282721137736, "dur":5888, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748282721143627, "dur":4177, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748282721147805, "dur":1736, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748282721149541, "dur":11903, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748282721161449, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748282721161504, "dur":79, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":6, "ts":1748282721161609, "dur":189, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":6, "ts":1748282721161799, "dur":3833, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1748282721165633, "dur":235, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748282721165893, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748282721165996, "dur":216, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1748282721166251, "dur":3729, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748282721137770, "dur":5887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748282721143660, "dur":4257, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748282721147918, "dur":13508, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748282721161506, "dur":333, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":7, "ts":1748282721161840, "dur":3816, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1748282721165658, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748282721166106, "dur":211, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1748282721166317, "dur":3638, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748282721137804, "dur":5887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748282721143693, "dur":4577, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748282721148270, "dur":13142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748282721161416, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748282721161590, "dur":154, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1748282721161744, "dur":3901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748282721165646, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748282721165762, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1748282721165853, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748282721166007, "dur":399, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1748282721166407, "dur":3569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748282721137853, "dur":5845, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748282721143701, "dur":4417, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748282721148119, "dur":13264, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748282721161394, "dur":189, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":9, "ts":1748282721161608, "dur":183, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/MonoBleedingEdge/x86_64/libMonoPosixHelper.so" }}
+,{ "pid":12345, "tid":9, "ts":1748282721161792, "dur":3836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748282721165629, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748282721165832, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1748282721165983, "dur":158, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748282721166223, "dur":176, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":9, "ts":1748282721166400, "dur":3565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748282721137883, "dur":5821, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748282721143706, "dur":4218, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748282721147925, "dur":13511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748282721161514, "dur":84, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":10, "ts":1748282721161664, "dur":233, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/level3" }}
+,{ "pid":12345, "tid":10, "ts":1748282721161898, "dur":3723, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1748282721165622, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748282721166185, "dur":196, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1748282721166381, "dur":3575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748282721137933, "dur":5777, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748282721143713, "dur":4251, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748282721147964, "dur":13427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748282721161393, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/libdecor-cairo.so" }}
+,{ "pid":12345, "tid":11, "ts":1748282721161607, "dur":169, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1748282721161777, "dur":3843, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1748282721165624, "dur":264, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748282721165976, "dur":179, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748282721166234, "dur":187, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1748282721166423, "dur":3551, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748282721137976, "dur":5740, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748282721143719, "dur":4386, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748282721148106, "dur":13317, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748282721161430, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748282721161533, "dur":168, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1748282721161702, "dur":3929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748282721165632, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748282721165733, "dur":237, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1748282721166064, "dur":236, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1748282721166301, "dur":3671, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1748282721138006, "dur":5717, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1748282721143725, "dur":4336, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1748282721148062, "dur":13343, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1748282721161406, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS.x86_64" }}
+,{ "pid":12345, "tid":13, "ts":1748282721161612, "dur":212, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS.x86_64" }}
+,{ "pid":12345, "tid":13, "ts":1748282721161825, "dur":3828, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1748282721165654, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1748282721165743, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1748282721165979, "dur":305, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":13, "ts":1748282721166285, "dur":3665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748282721138050, "dur":5679, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748282721143731, "dur":4152, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748282721147884, "dur":341, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748282721148226, "dur":13152, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748282721161395, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_16d3.info" }}
+,{ "pid":12345, "tid":14, "ts":1748282721161537, "dur":1374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/LinuxPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":14, "ts":1748282721162912, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748282721163026, "dur":2603, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748282721165776, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":14, "ts":1748282721165835, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1748282721165986, "dur":201, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1748282721166233, "dur":3736, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748282721138090, "dur":5647, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748282721143740, "dur":3523, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748282721147264, "dur":1978, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748282721149243, "dur":12177, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748282721161528, "dur":343, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":15, "ts":1748282721161872, "dur":3798, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1748282721165671, "dur":216, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1748282721165978, "dur":59, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1748282721166163, "dur":177, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1748282721166341, "dur":3642, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748282721138122, "dur":5624, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748282721143749, "dur":4138, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748282721147888, "dur":307, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748282721148196, "dur":13218, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748282721161421, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748282721161546, "dur":190, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":16, "ts":1748282721161737, "dur":3918, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1748282721165655, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1748282721165897, "dur":102, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1748282721166183, "dur":183, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1748282721166367, "dur":3606, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748282721138170, "dur":5585, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748282721143758, "dur":3968, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748282721147727, "dur":530, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748282721148257, "dur":13183, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748282721161443, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748282721161512, "dur":250, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":17, "ts":1748282721161763, "dur":3862, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748282721165625, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":17, "ts":1748282721165748, "dur":98, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1748282721165919, "dur":454, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":17, "ts":1748282721166374, "dur":3586, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748282721138227, "dur":5537, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748282721143767, "dur":4085, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748282721147852, "dur":1104, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748282721148956, "dur":12486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748282721161527, "dur":152, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":18, "ts":1748282721161703, "dur":3910, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748282721165614, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1748282721165787, "dur":156, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1748282721165987, "dur":216, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":18, "ts":1748282721166234, "dur":180, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1748282721166415, "dur":3537, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748282721138260, "dur":5512, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748282721143775, "dur":4239, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748282721148014, "dur":13367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748282721161392, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":19, "ts":1748282721161597, "dur":156, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Resources/UnityPlayer.png" }}
+,{ "pid":12345, "tid":19, "ts":1748282721161754, "dur":3893, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748282721165648, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll" }}
+,{ "pid":12345, "tid":19, "ts":1748282721165772, "dur":73, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1748282721165917, "dur":138, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":19, "ts":1748282721166110, "dur":215, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1748282721166326, "dur":3641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1748282721138325, "dur":5456, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1748282721143784, "dur":4242, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1748282721148026, "dur":13364, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1748282721161394, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":20, "ts":1748282721161666, "dur":224, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/level2" }}
+,{ "pid":12345, "tid":20, "ts":1748282721161891, "dur":3732, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1748282721165624, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll" }}
+,{ "pid":12345, "tid":20, "ts":1748282721165999, "dur":221, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1748282721166221, "dur":3720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748282721138381, "dur":5409, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748282721143793, "dur":4407, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748282721148200, "dur":13207, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748282721161408, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/UnityPlayer.so" }}
+,{ "pid":12345, "tid":21, "ts":1748282721161612, "dur":203, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/UnityPlayer.so" }}
+,{ "pid":12345, "tid":21, "ts":1748282721161816, "dur":3810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1748282721165630, "dur":215, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1748282721165986, "dur":192, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1748282721166198, "dur":193, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":21, "ts":1748282721166391, "dur":3563, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1748282721138420, "dur":5379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1748282721143802, "dur":4394, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1748282721148197, "dur":13206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1748282721161404, "dur":175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/libdecor-0.so.0" }}
+,{ "pid":12345, "tid":22, "ts":1748282721161642, "dur":221, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/level6" }}
+,{ "pid":12345, "tid":22, "ts":1748282721161863, "dur":3781, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1748282721165645, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":22, "ts":1748282721166012, "dur":254, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1748282721166267, "dur":3691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1748282721138448, "dur":5360, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1748282721143811, "dur":4210, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1748282721148021, "dur":13396, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1748282721161468, "dur":183, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets5.assets.resS" }}
+,{ "pid":12345, "tid":23, "ts":1748282721161696, "dur":3923, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1748282721165622, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1748282721165961, "dur":139, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1748282721166181, "dur":177, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1748282721166359, "dur":3612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748282721137682, "dur":5928, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748282721143613, "dur":4165, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748282721147779, "dur":1728, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748282721149508, "dur":11911, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748282721161423, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748282721161519, "dur":171, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":24, "ts":1748282721161718, "dur":3899, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1748282721165618, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1748282721165929, "dur":200, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":24, "ts":1748282721166166, "dur":181, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1748282721166348, "dur":3601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748282721138499, "dur":5329, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748282721143831, "dur":4470, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748282721148302, "dur":13109, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748282721161414, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748282721161469, "dur":106, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":25, "ts":1748282721161613, "dur":218, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":25, "ts":1748282721161832, "dur":3818, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":25, "ts":1748282721165651, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":25, "ts":1748282721165950, "dur":75, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":25, "ts":1748282721166067, "dur":240, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":25, "ts":1748282721166308, "dur":3630, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748282721138526, "dur":5311, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748282721143840, "dur":4276, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748282721148117, "dur":13292, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748282721161414, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748282721161526, "dur":135, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/sharedassets12.resource" }}
+,{ "pid":12345, "tid":26, "ts":1748282721161707, "dur":3907, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":26, "ts":1748282721165623, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1748282721165708, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":26, "ts":1748282721166015, "dur":259, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":26, "ts":1748282721166275, "dur":3672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748282721138569, "dur":5277, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748282721143850, "dur":4285, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748282721148136, "dur":13251, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748282721161394, "dur":192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/MonoBleedingEdge/x86_64/libmono-native.so" }}
+,{ "pid":12345, "tid":27, "ts":1748282721161665, "dur":216, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/level12" }}
+,{ "pid":12345, "tid":27, "ts":1748282721161882, "dur":3769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":27, "ts":1748282721165652, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":27, "ts":1748282721166225, "dur":3738, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1748282721138632, "dur":5231, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1748282721143863, "dur":4150, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1748282721148013, "dur":13372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1748282721161394, "dur":180, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/MonoBleedingEdge/x86_64/libmonobdwgc-2.0.so" }}
+,{ "pid":12345, "tid":28, "ts":1748282721161625, "dur":221, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/level7" }}
+,{ "pid":12345, "tid":28, "ts":1748282721161847, "dur":3811, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":28, "ts":1748282721165662, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1748282721165949, "dur":139, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles E:/GlitchSpace - Linux/GLS_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":28, "ts":1748282721166222, "dur":3744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1748282721179877, "dur":986, "ph":"X", "name": "ProfilerWriteOutput" }
+,
